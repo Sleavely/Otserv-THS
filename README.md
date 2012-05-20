@@ -25,14 +25,14 @@ To get started, you need to add the [register_death.lua](https://github.com/Slea
 
 and probably add some factions to actually get reputation for:
 
-1. Create a file such as [turin.lua](https://github.com/Sleavely/Otserv-THS/blob/master/THS_Lua/reputation/register_death.lua) in the `THS_Lua/reputation/` folder
+1. Create a file such as [turin.lua](https://github.com/Sleavely/Otserv-THS/blob/master/THS_Lua/reputation/turin.lua) in the `THS_Lua/reputation/` folder
 2. Add a reference to your new file in the reputation index at `THS_Lua/reputation/index.lua`
 3. PROFIT!
 
 Town guards
 -----------
 
-To get started, simply create an XML file like [the example](https://github.com/Sleavely/Otserv-THS/blob/master/npc/(Turin) Guard.xml). You define in the XML file which waypoints it should follow (you can have one guard for just a part of town, and another that patrols all of it).
+To get started, simply create an XML file like [the example](https://github.com/Sleavely/Otserv-THS/blob/master/npc/\(Turin\) Guard.xml). You define in the XML file which waypoints it should follow (you can have one guard for just a part of town, and another that patrols all of it).
 
 Town guards use the reputation system, but this can be easily disabled by editing the line that contains `reputation.getPlayerReputationTier` in [Guard.lua](https://github.com/Sleavely/Otserv-THS/blob/master/npc/scripts/Guard.lua).
 
