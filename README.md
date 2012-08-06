@@ -1,7 +1,7 @@
 THS' Otserv Lua scripts
 =======================
 
-This repository contains scripts for some of the features that were contained in World 7, such as *reputation*, *NPC waypoints*, and *town guards*.
+This repository contains scripts for some of the features that were contained in World 7, such as *reputation*, *NPC waypoints*, and *town guards*. (Looking for the [OpenTibia repo](https://github.com/opentibia)?)
 
 Load the THS library
 --------------------
